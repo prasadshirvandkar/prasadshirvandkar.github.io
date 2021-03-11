@@ -23,8 +23,9 @@
       </h1>
       <div class="row center">
         <h4 class="blue-grey-text text-lighten-3"
-          style="font-family: 'Source Sans Pro', sans-serif; font-weight: bold; font-size: 26px; color: #727272">
-          24 Years Old | Full Stack Developer, Amateur Designer &amp; Technology Enthusiast 
+          style="font-family: 'Source Sans Pro', sans-serif; font-weight: bold; font-size: 26px; color: #727272"
+          id="title_text">
+           
         </h4>
       </div>
       <div class="row center">
@@ -371,6 +372,22 @@
         } // End if
       });
     });
+  </script>
+
+  <script>
+    function getAge(dateString) {
+      var today = new Date();
+      var birthDate = new Date(dateString);
+      var age = today.getFullYear() - birthDate.getFullYear();
+      var m = today.getMonth() - birthDate.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+      }
+      return age;
+    }
+
+    document.getElementById("title_text").innerHTML = getAge("1996/10/15") +
+      " Years Old | Full Stack Developer, Amateur Designer &amp; Technology Enthusiast"
   </script>
 
 </body>
