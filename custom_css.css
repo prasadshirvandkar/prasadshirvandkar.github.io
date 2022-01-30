@@ -480,7 +480,7 @@ a {
 .gradient-button-1 {background-image: linear-gradient(to right, #06beb6 0%, #F7BB97 51%, #48b1bf 100%)}
 .gradient-button-1:hover { background-position: right center; }
 
-.gradient-button-2 {background-image: linear-gradient(to right, #f26f50 0%, #feb47b 50%, #f26f50 100%)}
+.gradient-button-2 {background-image: linear-gradient(to right, #f26f50 0%, #f09956 50%, #f26f50 100%)}
 .gradient-button-2:hover { background-position: right center; }
 
 .gradient-button-3 {background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%)}
