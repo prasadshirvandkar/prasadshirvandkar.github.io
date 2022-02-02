@@ -477,35 +477,80 @@ a {
     box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
     margin: 8px 10px 12px;
 }
-.gradient-button-1 {background-image: linear-gradient(to right, #06beb6 0%, #F7BB97 51%, #48b1bf 100%)}
+.gradient-button-1 {
+	background-image: linear-gradient(to right, #06beb6 0%, #F7BB97 51%, #48b1bf 100%);
+}
 .gradient-button-1:hover { background-position: right center; }
 
 .gradient-button-2 {background-image: linear-gradient(to right, #f26f50 0%, #f09956 50%, #f26f50 100%)}
 .gradient-button-2:hover { background-position: right center; }
+.gradient-button-2::before {
+	font-family: fontAwesome;
+  	content: "\f2b9\00a0\00a0";
+}
 
 .gradient-button-3 {background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%)}
 .gradient-button-3:hover { background-position: right center; }
+.gradient-button-3::before {
+	font-family: fontAwesome;
+  	content: "\f2be\00a0";
+}
 
 .gradient-button-4 {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
 .gradient-button-4:hover { background-position: right center; }
+.gradient-button-4::before {
+	font-family: fontAwesome;
+  	content: "\f08c\00a0";
+}
 
 .gradient-button-5 {background-image: linear-gradient(to right, #5cf99d 0%, #05b24d 30%, #3bf75b 100%)}
 .gradient-button-5:hover { background-position: right center; }
+.gradient-button-5::before {
+	font-family: fontAwesome;
+  	content: "\f08c\00a0";
+}
 
 .gradient-button-6 {background-image: linear-gradient(to right, #565656 0%, #191919	 51%, #565656 100%)}
 .gradient-button-6:hover { background-position: right center; }
+.gradient-button-6::before {
+	font-family: fontAwesome;
+  	content: "\f09b\00a0\00a0";
+}
 
 .gradient-button-gplus {background-image: linear-gradient(to right, #f72e5a 0%, #ff0000	 51%, #f72e5a 100%)}
 .gradient-button-gplus:hover { background-position: right center; }
+.gradient-button-gplus::before {
+	font-family: fontAwesome;
+  	content: "\f16a\00a0\00a0\00a0";
+}
 
 .gradient-button-insta {background-image: linear-gradient(to right, #f704aa 0%, #f70448	 51%, #f704aa 100%)}
 .gradient-button-insta:hover { background-position: right center; }
+.gradient-button-insta::before {
+	font-family: fontAwesome;
+  	content: "\f16d\00a0";
+}
 
-.gradient-button-twit {background-image: linear-gradient(to right, #37ecfc 0%, #02adfc	 51%, #37ecfc 100%)}
+.gradient-button-twit {background-image: linear-gradient(to right, #11d1e2 0%, #0594d6	 51%, #11d1e2 100%)}
 .gradient-button-twit:hover { background-position: right center; }
+.gradient-button-twit::before {
+	font-family: fontAwesome;
+  	content: "\f099\00a0";
+}
 
 .gradient-button-link {background-image: linear-gradient(to right, #04b2f7 0%, #045df7	 51%, #04b2f7 100%)}
 .gradient-button-link:hover { background-position: right center; }
+.gradient-button-link::before {
+	font-family: fontAwesome;
+  	content: "\f08c\00a0\00a0";
+}
+
+.gradient-button-play {background-image: linear-gradient(to right, #0eb152 0%, #056d30 51%, #0eb152 100%)}
+.gradient-button-play:hover { background-position: right center; }
+.gradient-button-play::before {
+	font-family: fontAwesome;
+  	content: "\f17b\00a0\00a0";
+}
 
 /*Arrow*/
 .downArrow{
@@ -577,4 +622,15 @@ a {
 .demo a{
   font-family: 'Raleway', sans-serif;
 color: #2ecc71;		
+}
+
+
+.hero_heading h1 {
+    border: 1px solid red;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 800px;
 }
