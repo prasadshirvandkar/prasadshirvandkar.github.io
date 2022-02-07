@@ -634,3 +634,10 @@ color: #2ecc71;
     margin: 0 auto;
     max-width: 800px;
 }
+
+.progress{
+    background-color: #a0d4f1;
+}
+.determinate{
+    background: #025180;
+}
